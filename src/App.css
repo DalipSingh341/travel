@@ -23,7 +23,7 @@
   border-radius: 5px;
   border: 1px solid var(--1st, #212832);
 }
-.sign_up_btn:hover{
+.sign_up_btn:hover {
   background-color: #df6951;
 }
 .leaf:hover svg path {
@@ -80,10 +80,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color:transparent;
+  background-color: transparent;
 }
-.back_top{
-
+.back_top {
   background-color: #df6951;
   border-radius: 24px;
   padding: 5px 25px;
@@ -381,7 +380,46 @@ right: 0;
 /* section-6 */
 
 /* footer  */
-.facebook:hover,
+.circle {
+  background-color: #ffffff;
+  z-index: -1 !important;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.circle:hover {
+  
+  box-shadow: 0px 0px 1px 1px rgb(106, 104, 104);
+  background: var(
+    --angular,
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #b8d2f1 0deg,
+      #f289aa 60.00000178813934deg,
+      #c68bf0 106.09081864356995deg,
+      #d164da 153.7500035762787deg,
+      #c963e8 221.24999284744263deg,
+      #bfc2e8 258.75deg,
+      #ffc999 288.7499928474426deg,
+      #d0d8c9 315deg,
+      #bad0f1 334.13365602493286deg,
+      #ced8cb 358.9677572250366deg,
+      rgba(255, 255, 255, 0) 360deg
+    )
+  );
+}
+.circle:hover svg path {
+  fill: white !important;
+}
+.circle svg path {
+  fill: black !important;
+}
+/* .facebook:hover,
 .twitter:hover,
 .instagram:hover {
   transform: translateY(-10px);
@@ -405,12 +443,11 @@ right: 0;
 }
 .instagram:hover svg .fill_4 {
   fill: #C13584;
-}
+} */
 .footer_para1 {
   max-width: 207px;
   padding-top: 19px;
 }
-
 
 .btn-primary {
   --bs-btn-color: #fff;
@@ -424,16 +461,16 @@ right: 0;
 }
 
 /* footer  */
-@media (min-width: 320px) { 
+@media (min-width: 320px) {
   .blue_circle {
     display: none;
-  width: 354px;
-  height: 367px;
-  background-color: rgb(77, 148, 189);
-  box-shadow: 5px rgb(77, 148, 189);
-  border-radius: 50%;
-  filter: blur(110px);
-}
+    width: 354px;
+    height: 367px;
+    background-color: rgb(77, 148, 189);
+    box-shadow: 5px rgb(77, 148, 189);
+    border-radius: 50%;
+    filter: blur(110px);
+  }
   .telegram {
     cursor: pointer;
     position: absolute;
@@ -498,7 +535,7 @@ right: 0;
 }
 
 @media (min-width: 992px) {
-  .blue_circle{
+  .blue_circle {
     display: block;
   }
   .red_line {
