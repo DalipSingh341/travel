@@ -10,6 +10,7 @@ import plane2 from '../assets/svg/plane2.svg'
 import red_line from '../assets/svg/enjoy_line.svg'
 import { Container } from "react-bootstrap";
 
+import { Link } from "react-router-dom";
 const Hero_section = () => {
   
       const [show, setShow] = useState(false);
@@ -19,7 +20,12 @@ const Hero_section = () => {
   return (
     <Container className="pt-3 pb-5 ">
       <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center  ">
-        <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="100" className="pt-5 order-lg-first order-last">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          data-aos-delay="100"
+          className="pt-5 order-lg-first order-last"
+        >
           <h2 className="ff-poppins fc_orange fs_20 fw_700 mb-0 pb-4">
             Best Destinations around the world
           </h2>
@@ -35,12 +41,10 @@ const Hero_section = () => {
             west hard for the.
           </p>
           <div className="d-flex flex-column flex-sm-row align-items-center">
-            <a
-              className="ff-google-sans fc_white fw_18 fw_500 mb-0 find_out d-inline-block  mt-2 find_out1"
-              href="find_out"
-            >
-              Find out more
-            </a>
+
+            <Link className="ff-google-sans fc_white fw_18 fw_500 mb-0 find_out d-inline-block  mt-2 find_out1">
+              Find out more{" "}
+            </Link>
             <div className="ff-poppins  d-inline-block fc_off_black fs_17 fw_500 ml_44p mt-2">
               <img className="me-4 play_btn cp" src={play} alt="play_btn" />
 
@@ -96,7 +100,9 @@ const Hero_section = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left" data-aos-duration="3000" data-aos-delay="100"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          data-aos-delay="100"
           className="position-relative order-first order-lg-last"
         >
           <img className="plane1" src={plane1} alt="plane1" />

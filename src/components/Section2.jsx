@@ -7,7 +7,7 @@ import rome_arrow from "../assets/svg/rome_arrow.svg";
 import { Col, Row } from "react-bootstrap";
 const Section2 = () => {
   return (
-    <div className="py-5">
+    <div  className="py-5">
       <h2 className="ff-poppins fs_18 fw_600 fc_off_black text-center  mb-0">
         Top Selling
       </h2>
@@ -15,9 +15,12 @@ const Section2 = () => {
         Top Destinations
       </h2>
       <Row className="justify-content-center">
-        <Col xs={12} sm={6} lg={4}
-          data-aos="flip-left" data-aos-duration="2000"
-         
+        <Col
+          xs={12}
+          sm={6}
+          lg={4}
+          data-aos="flip-left"
+          data-aos-duration="2000"
           className=" positon-relative  cp"
         >
           <div className="rome_box cursor-pointer">
@@ -42,9 +45,12 @@ const Section2 = () => {
             </div>
           </div>
         </Col>
-        <Col xs={12} sm={6} lg={4}
-          data-aos="flip-left" data-aos-duration="2000"
-         
+        <Col
+          xs={12}
+          sm={6}
+          lg={4}
+          data-aos="flip-left"
+          data-aos-duration="2000"
           className=" positon-relative cp"
         >
           <div className="rome_box cursor-pointer">
@@ -69,9 +75,12 @@ const Section2 = () => {
             </div>
           </div>
         </Col>
-        <Col xs={12} sm={6} lg={4}
-          data-aos="flip-left" data-aos-duration="2000"
-         
+        <Col
+          xs={12}
+          sm={6}
+          lg={4}
+          data-aos="flip-left"
+          data-aos-duration="2000"
           className=" positon-relative cp"
         >
           <div className="rome_box cursor-pointer">

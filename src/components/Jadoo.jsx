@@ -1,10 +1,8 @@
 import React from 'react'
 import Jadoo_logo from '../assets/svg/Jadoo_logo.svg';
-
 import { Container } from "react-bootstrap";
-
+import { Link } from 'react-router-dom';
 const Jadoo = () => {
-
   return (
     <nav id="dynamic" className="pt-5 pb-4  ">
       <Container>
@@ -18,52 +16,52 @@ const Jadoo = () => {
           <input type="checkbox" id="iconbox" hidden></input>
           <ul className="d-flex mb-0 gap-5 align-items-center lg_screen">
             <li>
-              <a
-                className="ff-google-sans fs_17 fc_black fw_500 d-inline-block text2_hover  "
-                href="Desitnations"
+              <Link
+                className="ff-google-sans fs_17 fc_black fw_500 d-inline-block text2_hover"
+                to="/section1"
               >
                 Desitnations
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-google-sans fs_17 fc_black fw_500 d-inline-block text2_hover  "
-                href="Hotels"
+              <Link
+                className="ff-google-sans fs_17 fc_black fw_500 d-inline-block text2_hover"
+                to="/section2"
               >
                 Hotels
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="ff-google-sans fs_17 fc_black fw_500 d-inline-block text2_hover  "
-                href="Flights"
+                to="/section3"
               >
                 Flights
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="ff-google-sans fs_17 fc_black fw_500 d-inline-block text2_hover"
-                href="Bookings"
+                to="/section4"
               >
                 Bookings
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="ff-google-sans fs_17 fc_black fw_500 d-inline-block text2_hover"
-                href="Login"
+                to="/Sliders"
               >
                 Login
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-google-sans  fs_17 fc_black fw_500 d-inline-block   sign_up_btn"
-                href="Sign up"
+              <Link
+                className="ff-google-sans fs_17 fc_black fw_500 d-inline-block sign_up_btn "
+                to="/section6"
               >
                 Sign up
-              </a>
+              </Link>
             </li>
             <select
               name="language"

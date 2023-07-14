@@ -7,6 +7,7 @@ import trip_box from "../assets/svg/section3_card_image.svg"
 import girl2 from "../assets/png/section3_image1.png";
 import blue_gradient from "../assets/png/blue_graidient.png";
 import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Section3 = () => {
   return (
@@ -97,8 +98,7 @@ const Section3 = () => {
               </h2>
             </div>
             <div className="d-flex gap-3 pt-3 pb_30">
-              <a className="leaf" href="#">
-                {" "}
+              <Link className="leaf">
                 <svg
                   width="36"
                   height="36"
@@ -128,9 +128,8 @@ const Section3 = () => {
                     </clipPath>
                   </defs>
                 </svg>
-              </a>
-              <a className="leaf" href="#">
-                {" "}
+              </Link>
+              <Link className="leaf">
                 <svg
                   width="36"
                   height="36"
@@ -156,9 +155,8 @@ const Section3 = () => {
                     </clipPath>
                   </defs>
                 </svg>
-              </a>
-              <a className="leaf" href="#">
-                {" "}
+              </Link>
+              <Link className="leaf">
                 <svg
                   width="36"
                   height="36"
@@ -176,7 +174,7 @@ const Section3 = () => {
                     fill="#84829A"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="d-flex justify-content-between">
               <div className="d-flex gap-3">
@@ -187,7 +185,7 @@ const Section3 = () => {
                   24 people going
                 </h2>
               </div>
-              <a className="heart" href="#">
+              <Link className="heart">
                 <svg
                   width="20"
                   height="20"
@@ -200,7 +198,7 @@ const Section3 = () => {
                     fill="#4152CA"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </Col>

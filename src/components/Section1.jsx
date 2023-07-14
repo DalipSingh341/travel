@@ -7,7 +7,7 @@ import orange_box from "../assets/svg/orange_box_image.svg";
 import { Col, Row } from "react-bootstrap";
 const Section1 = () => {
   return (
-    <div className="pt-5">
+    <div  className="pt-5">
       {/* <div className="nav_baar text-end">
         <a className="mb-0 d-inline-block back_top fc_white" href="#">
           ^

@@ -3,6 +3,7 @@
   font-family: google sans;
   src: url("./assets/Fonts/3128-font_1.ttf");
 }
+
 :root {
   --ff-primary: "Poppins", sans-serif;
   --ff-secondary: "Volkhov", sans-serif;

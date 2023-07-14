@@ -75,9 +75,9 @@ const Sliders = () => {
     };
 
   return (
-    <div className='text-center'>
+    <div className="text-center">
       <Slider {...settings}>
-        <div >
+        <div>
           <div className="my-2">
             <img className="axon1" src={axon1} alt="axon1" />
           </div>

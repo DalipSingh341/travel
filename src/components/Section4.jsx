@@ -4,6 +4,7 @@ import top_arrow1 from "../assets/svg/top_arrow.svg"
 import top_arrow2 from "../assets/svg/bottom_arrow.svg" 
 import boy_smile from "../assets/svg/boy_smile.svg";
 import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Section4 = () => {
   return (
     <Row className=" py-5 ">
@@ -20,9 +21,9 @@ const Section4 = () => {
         <p className="ff-Volkhov fc_blue fw_700 fs_50 mb-0 section4_para1 pt-2 pb_82">
           What People Say About Us.
         </p>
-        <a href="#">
+        <Link>
           <img src={three_balls} alt="three_balls" />
-        </a>
+        </Link>
       </Col>
       <Col
         xs={12}
@@ -45,12 +46,12 @@ const Section4 = () => {
           </h2>
         </div>
         <div className="d-flex flex-column gap-5 ms-5 arrows">
-          <a href="#">
+          <Link>
             <img src={top_arrow1} alt="top_arrow1" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link>
             <img src={top_arrow2} alt="top_arrow2" />
-          </a>
+          </Link>
         </div>
       </Col>
     </Row>

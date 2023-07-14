@@ -2,6 +2,7 @@ import React from "react";
 import google_play1 from "../assets/svg/google_play1.svg"
 import google_play2 from "../assets/svg/googleplay2.svg"
 import { Col, Row } from "react-bootstrap";
+import {Link} from "react-router-dom"
 const Last_One = () => {
   return (
     <div className="py-5">
@@ -18,28 +19,19 @@ const Last_One = () => {
               Company
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Careers
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Mobile
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>
@@ -49,28 +41,19 @@ const Last_One = () => {
               Contact
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Help/FAQ
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Press
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Affilates
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>
@@ -80,34 +63,25 @@ const Last_One = () => {
               More
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Airlinefees
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Airline
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0"
-                href="#"
-              >
+              <Link className="ff-poppins fs_18 fw_500  fc_off_black mt-3 d-inline-block mb-0">
                 Low fare tips
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>
         <Col xs={12} sm={6} md={4} lg={2} className="  pt-3  ">
           <div>
-            <a className="facebook d-inline-block" href="#">
+            <Link className="facebook d-inline-block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
@@ -167,8 +141,8 @@ const Last_One = () => {
                   </filter>
                 </defs>
               </svg>
-            </a>
-            <a className="instagram d-inline-block" href="#">
+            </Link>
+            <Link className="instagram d-inline-block">
               <svg
                 width="65"
                 height="65"
@@ -251,8 +225,8 @@ const Last_One = () => {
                   </clipPath>
                 </defs>
               </svg>
-            </a>
-            <a className="twitter d-inline-block" href="#">
+            </Link>
+            <Link className="twitter d-inline-block">
               <svg
                 width="61"
                 height="61"
@@ -310,18 +284,18 @@ const Last_One = () => {
                   </filter>
                 </defs>
               </svg>
-            </a>
+            </Link>
           </div>
           <h2 className="ff-poppins fs_20 fw_500  fc_off_black mb-0 pt-4 pb-3">
             Discover our app
           </h2>
           <div className="d-flex  ">
-            <a className="d-inline-block " href="#">
+            <Link>
               <img src={google_play1} alt="google_play1" />
-            </a>
-            <a className="d-inline-block ms-2" href="#">
+            </Link>
+            <Link>
               <img src={google_play2} alt="google_play2" />
-            </a>
+            </Link>
           </div>
         </Col>
       </Row>
